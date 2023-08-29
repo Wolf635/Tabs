@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230829221003">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Clothes</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Shoes</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Accessories</a></li>
+					</ul>
+				</nav>
+				<div class="image-logo">
+					<a href="#" class="image-logo__link">
+						<!-- <img src="https://i.pinimg.com/originals/7d/bd/47/7dbd475618ede9596808560157b02609.jpg" alt="logo"
+												class="logo__img"> -->
+						<img src="img/header/logo.svg" alt="logo" class="image-logo__img">
+					</a>
+				</div>
+				<div class="header__actions actions">
+					<form method="POST" data-da=".header__menu , 767.98" action="https://jsonplaceholder.typicode.com/posts" class="actions__form" name="name">
+						<input type="text" class="actions__input" placeholder="Search..." name="text" autocomplete="off">
+						<button type="submit" class="actions__button _icon-searsch"></button>
+					</form>
+					<div class="actions__icons">
+						<a href="#" class="actions__avatar _icon-avatar"></a>
+						<a href="#" class="actions__avatar _icon-basket"></a>
+						<a href="#" class="actions__avatar _icon-heart"></a>
+					</div>
+				</div>
+				<div class="icon-menu"><span></span></div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main-slider main-slider">
+				<div class="main-slider__container">
+					<!-- Обертка слайдера -->
+					<div class="main-slider__slider swiper">
+						<!-- Часть слайдера, которая двигается -->
+						<div class="main-slider__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="main-slider__slide swiper-slide">
+								<div class="swiper-slide__decor decor-swiper-slide">
+									<img class="decor-swiper-slide__img" src="img/page/logo-main.svg" alt="Картинка">
+								</div>
+								<div class="swiper-slide__image">
+									<picture><source srcset="img/page/main-img.webp" type="image/webp"><img class="swiper-slide__img" src="img/page/main-img.png" alt="Картинка"></picture>
+								</div>
+							</div>
+							<div class="main-slider__slide swiper-slide">
+								<div class="swiper-slide__decor decor-swiper-slide">
+									<img class="decor-swiper-slide__img" src="img/page/logo-main.svg" alt="Картинка">
+								</div>
+								<div class="swiper-slide__image">
+									<picture><source srcset="img/page/main-img.webp" type="image/webp"><img class="swiper-slide__img" src="img/page/main-img.png" alt="Картинка"></picture>
+								</div>
+							</div>
+							<div class="main-slider__slide swiper-slide">
+								<div class="swiper-slide__decor decor-swiper-slide">
+									<img class="decor-swiper-slide__img" src="img/page/logo-main.svg" alt="Картинка">
+								</div>
+								<div class="swiper-slide__image">
+									<picture><source srcset="img/page/main-img.webp" type="image/webp"><img class="swiper-slide__img" src="img/page/main-img.png" alt="Картинка"></picture>
+								</div>
+							</div>
+							<div class="main-slider__slide swiper-slide">
+								<div class="swiper-slide__decor decor-swiper-slide">
+									<img class="decor-swiper-slide__img" src="img/page/logo-main.svg" alt="Картинка">
+								</div>
+								<div class="swiper-slide__image">
+									<picture><source srcset="img/page/main-img.webp" type="image/webp"><img class="swiper-slide__img" src="img/page/main-img.png" alt="Картинка"></picture>
+								</div>
+							</div>
+						</div>
+						<!--пагинация -->
+						<div class="main-slider__pagination swiper-pagination"></div>
+					</div>
+					<div class="main-slider__bottom">
+						<h3 class="main-slider__text">Explore our collection</h3>
+						<button class="main-slider__button"></button>
+					</div>
+				</div>
+			</section>
+			<section class="page__home home">
+				<div class="home__container">
+					<div class="home__header">
+						<h1 class="home__title">Shop your style</h1>
+						<p class="home__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae gravida cursus
+							adipiscing<br>
+							viverra at tortor, egestas odio parturient. Morbi ut lorem in erat. Et et molestie diam diam ultricies.
+							Scelerisque duis diam ac cras dictum adipiscing. Venenatis at sit proin ut vitae adipiscing id facilisis.
+						</p>
+					</div>
+					<div data-tabs class="tabs">
+						<div data-tabs-body class="line">
+							<div class="line__body">
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-01.webp" type="image/webp"><img src="img/page/line-img-01.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Multicolored armless top</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-02.webp" type="image/webp"><img src="img/page/line-img-02.jpg" alt="image" class="item-line__img"></picture>
+										<!-- <img src="https://i.pinimg.com/736x/3c/ed/0e/3ced0e3cd490ca50195c6bccb933d24f.jpg" alt="image"
+									class="item-line__img"> -->
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Grey bee wrist-watch</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<!-- <article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-03.webp" type="image/webp"><img src="img/page/line-img-03.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Mini skirt</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-04.webp" type="image/webp"><img src="img/page/line-img-04.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Red lightweight gown</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-05.webp" type="image/webp"><img src="img/page/line-img-05.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Blue botton-down gown</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-06.webp" type="image/webp"><img src="img/page/line-img-06.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Moon and star neckpiece</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-07.webp" type="image/webp"><img src="img/page/line-img-07.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Tambourine Crossbody Bag</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-08.webp" type="image/webp"><img src="img/page/line-img-08.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Katy Perry Killer Queen EDP</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-09.webp" type="image/webp"><img src="img/page/line-img-09.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">High heels ladies shoes</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-10.webp" type="image/webp"><img src="img/page/line-img-10.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Nerdy oval glasses</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg item-line__image-ibg--contain">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-11.webp" type="image/webp"><img src="img/page/line-img-11.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Diamond ladies ring</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-12.webp" type="image/webp"><img src="img/page/line-img-12.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Ladies bush pants</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-13.webp" type="image/webp"><img src="img/page/line-img-13.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Guilhermina Embellished Slides</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-14.webp" type="image/webp"><img src="img/page/line-img-14.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Superga Plaid Sneakers</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-15.webp" type="image/webp"><img src="img/page/line-img-15.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Checked ladies trouser</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-16.webp" type="image/webp"><img src="img/page/line-img-16.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Beanie winter fleece</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article> -->
+							</div>
+							<div class="line__body">
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<!-- <picture><source srcset="img/page/line-img-01.webp" type="image/webp"><img src="img/page/line-img-01.jpg" alt="image" class="item-line__img"></picture> -->
+										<picture><source srcset="https://www.vladtime.ru/uploads/posts/2018-09/1537977249_spp2.webp" type="image/webp"><img src="https://www.vladtime.ru/uploads/posts/2018-09/1537977249_spp2.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Multicolored armless top</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-02.webp" type="image/webp"><img src="img/page/line-img-02.jpg" alt="image" class="item-line__img"></picture>
+										<!-- <img src="https://i.pinimg.com/736x/3c/ed/0e/3ced0e3cd490ca50195c6bccb933d24f.jpg" alt="image"
+																						class="item-line__img"> -->
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Grey bee wrist-watch</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-03.webp" type="image/webp"><img src="img/page/line-img-03.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Mini skirt</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<!-- <article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-04.webp" type="image/webp"><img src="img/page/line-img-04.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Red lightweight gown</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-05.webp" type="image/webp"><img src="img/page/line-img-05.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Blue botton-down gown</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-06.webp" type="image/webp"><img src="img/page/line-img-06.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Moon and star neckpiece</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-07.webp" type="image/webp"><img src="img/page/line-img-07.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Tambourine Crossbody Bag</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-08.webp" type="image/webp"><img src="img/page/line-img-08.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Katy Perry Killer Queen EDP</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-09.webp" type="image/webp"><img src="img/page/line-img-09.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">High heels ladies shoes</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-10.webp" type="image/webp"><img src="img/page/line-img-10.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Nerdy oval glasses</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg item-line__image-ibg--contain">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-11.webp" type="image/webp"><img src="img/page/line-img-11.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Diamond ladies ring</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-12.webp" type="image/webp"><img src="img/page/line-img-12.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Ladies bush pants</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-13.webp" type="image/webp"><img src="img/page/line-img-13.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Guilhermina Embellished Slides</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-14.webp" type="image/webp"><img src="img/page/line-img-14.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Superga Plaid Sneakers</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-15.webp" type="image/webp"><img src="img/page/line-img-15.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Checked ladies trouser</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article>
+								<article class="line__item item-line">
+									<div class="item-line__image-ibg">
+										<div class="item-line__heard"></div>
+										<div class="item-line__purchase">ADD TO CART</div>
+										<picture><source srcset="img/page/line-img-16.webp" type="image/webp"><img src="img/page/line-img-16.jpg" alt="image" class="item-line__img"></picture>
+									</div>
+									<div class="item-line__footer footer-line">
+										<h3 class="footer-line__title">Beanie winter fleece</h3>
+										<div class="footer-line__price">₦10,000</div>
+									</div>
+								</article> -->
+							</div>
+						</div>
+						<nav data-tabs-titles class="tabs__navigation tabs-home">
+							<button type="button" class="tabs-home__item _tab-active">1</button>
+							<button type="button" class="tabs-home__item">2</button>
+							<button type="button" class="tabs-home__item">3</button>
+							<button type="button" class="tabs-home__item tabs-home__item--arrow _icon-arrow"></button>
+						</nav>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo image-logo ">
+					<a href="#" class="image-logo__link">
+						<!-- <img src="https://i.pinimg.com/originals/7d/bd/47/7dbd475618ede9596808560157b02609.jpg" alt="logo"
+											class="logo__img"> -->
+						<img src="img/header/logo.svg" alt="logo" class="image-logo__img">
+					</a>
+				</div>
+				<div class="footer__links">
+					<div class="footer__menu">
+						<a href="#" class="footer__link">About Us</a>
+						<a href="#" class="footer__link">Contact</a>
+						<a href="#" class="footer__link">Terms & Conditions</a>
+					</div>
+					<div class="footer__social">
+						<a href="#" class="footer__link _icon-facebook">Facebook</a>
+						<a href="#" class="footer__link _icon-twitter">Twitter</a>
+						<a href="#" class="footer__link _icon-instagram">Instagram</a>
+					</div>
+				</div>
+				<div class="footer__email email-footer">
+					<h3 class="email-footer__label">Subscribe to our newsletter</h3>
+					<div class="email-footer__body">
+						<form action="#" class="email-footer__form" method="POST">
+							<input type="email" class="email-footer__input" placeholder="Email address">
+						</form>
+						<button type="submit" class="email-footer__button">OK</button>
+					</div>
+				</div>
+				<div class="footer__address address-footer">
+					<p class="address-footer__text">497 Evergreen Rd. Roseville, CA95673</p>
+					<a href="tel:+44345678903" class="address-footer__phone">+44 345 678 903</a>
+					<a href="mailto:adobexd@mail.com" class="address-footer__email">adobexd@mail.com</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230829221003"></script>
+</body>
+
+</html>
